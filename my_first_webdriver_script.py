@@ -5,7 +5,7 @@ from selenium import webdriver
 print(type(webdriver))
 driver = webdriver.Chrome(executable_path="../resources/chromedriver-79.exe")
 driver.maximize_window()
-
+# This is changed for demo in Git class
 # The driver.get method will navigate to a page given by the URL.
 # WebDriver will wait until the page has fully loaded
 # (that is, the “onload” event has fired)
