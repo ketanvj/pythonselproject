@@ -29,5 +29,5 @@ time.sleep(4) # this should be avoided. If your application takes lesser than 4 
 
 print(driver.title)
 
-
+# Below is the to quit the browser.
 driver.quit()
