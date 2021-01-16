@@ -1,6 +1,6 @@
 # pip install -U selenium
 import time
-
+# trying to add commetns from gitbash and then push to server
 from selenium import webdriver
 print(type(webdriver))
 driver = webdriver.Chrome(executable_path="../resources/chromedriver-79.exe")
